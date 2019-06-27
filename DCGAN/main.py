@@ -75,8 +75,8 @@ def train(**kwargs):
         netd.load_state_dict(t.load(opt.netd_path, map_location=t.device('cpu')))
     if opt.netg_path:
         netg.load_state_dict(t.load(opt.netg_path, map_location=t.device('cpu')))
-    netd = netd.to(device)
-    netg = netg.to(device)
+    netd.to(device)
+    netg.to(device)
 
     # 定义优化器和损失
     optimizer_g = t.optim.Adam(netg.parameters(), opt.lr1, betas=(opt.beta1, 0.999))
