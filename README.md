@@ -1,5 +1,10 @@
 # fuxian
 fuxian paper and algorithm
+可视化: visdom
+```
+python -m visdom.server
+```
+然后根据提示在浏览器中打开localhost:8097
 
 ![test_pic](https://github.com/zhengsai168/fuxian/blob/master/picture/input.png)
 
