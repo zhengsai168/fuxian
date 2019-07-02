@@ -14,3 +14,6 @@ fuxian paper and algorithm
 
 #### 网络整体结构(VGG部分不更新梯度，只用来算Loss)
 ![loss_net](https://github.com/zhengsai168/fuxian/blob/master/picture/Fast_Neural_Style.png)
+
+## CharRNN （生成唐诗）
+![]
