@@ -16,4 +16,4 @@ fuxian paper and algorithm
 ![loss_net](https://github.com/zhengsai168/fuxian/blob/master/picture/Fast_Neural_Style.png)
 
 ## CharRNN （生成唐诗）
-![]
+![charRNN_net](https://github.com/zhengsai168/fuxian/blob/master/picture/CharRNN.png)
