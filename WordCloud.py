@@ -4,6 +4,7 @@ import operator
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from collections import Counter
+import math
 
 root_path = '..\\..\\'  #根目录为向上两级
 py_code_list = []
